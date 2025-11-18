@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class Cars {
   
-  private API_URL = "http://localhost:8080/api/user"
+  private API_URL = "https://carspractice1-backend.onrender.com/api/user"
 
   constructor(private http: HttpClient){}
 
